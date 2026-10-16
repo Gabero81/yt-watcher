@@ -26,6 +26,9 @@ MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "15"))
 # "1" = on a channel's first sight, pull its single most recent video instead of
 # skipping the whole backlog. Use this to test the pipeline end to end.
 PULL_LATEST_ON_BOOTSTRAP = os.environ.get("PULL_LATEST_ON_BOOTSTRAP", "0") == "1"
+# N > 0: on a channel's first sight, pull everything published in the last N days
+# instead of skipping the backlog. Overrides PULL_LATEST_ON_BOOTSTRAP.
+BOOTSTRAP_DAYS = int(os.environ.get("BOOTSTRAP_DAYS", "0") or 0)
 # A single YouTube video ID or URL to pull right now, skipping the channel list.
 TEST_VIDEO = os.environ.get("TEST_VIDEO", "").strip()
 # Inbox files older than this are deleted. The Claude sweep tracks what it has
@@ -88,6 +91,23 @@ def get_transcript(video_id: str) -> dict | None:
         return None
     r.raise_for_status()
     return r.json()
+
+
+def is_recent(published, days: int) -> bool:
+    """published is an ISO-8601 string like 2026-10-14T15:00:12+00:00 (or date only)."""
+    if not published:
+        return False
+    s = str(published).strip().replace("Z", "+00:00")
+    try:
+        d = datetime.fromisoformat(s)
+    except ValueError:
+        try:
+            d = datetime.strptime(s[:10], "%Y-%m-%d")
+        except ValueError:
+            return False
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - d).total_seconds() <= days * 86400
 
 
 def safe_name(s: str, limit: int = 60) -> str:
@@ -206,7 +226,12 @@ def main() -> int:
         # First time we see a channel, remember its backlog without pulling it.
         # Only videos published AFTER bootstrap get transcribed.
         if channel not in seen["bootstrapped"]:
-            keep = uploads[:1] if PULL_LATEST_ON_BOOTSTRAP else []
+            if BOOTSTRAP_DAYS > 0:
+                keep = [v for v in uploads if is_recent(v.get("published"), BOOTSTRAP_DAYS)]
+            elif PULL_LATEST_ON_BOOTSTRAP:
+                keep = uploads[:1]
+            else:
+                keep = []
             for v in uploads:
                 if v not in keep:
                     seen["videos"][v["videoId"]] = {"channel": channel, "status": "bootstrap"}

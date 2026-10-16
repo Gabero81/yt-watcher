@@ -9,6 +9,14 @@ on:
         description: "Test mode: pull the most recent video of each NEW channel"
         type: boolean
         default: false
+      bootstrap_days:
+        description: "First-run backfill: pull videos from the last N days for NEW channels (0 = none)"
+        type: string
+        default: "0"
+      max_per_run:
+        description: "Cap on transcripts this run"
+        type: string
+        default: "15"
       test_video:
         description: "Test mode: pull this one video (URL or ID) right now"
         type: string
@@ -35,6 +43,8 @@ jobs:
           MIN_SECONDS: "600"
           PULL_LATEST_ON_BOOTSTRAP: ${{ inputs.pull_latest == true && '1' || '0' }}
           TEST_VIDEO: ${{ inputs.test_video }}
+          BOOTSTRAP_DAYS: ${{ inputs.bootstrap_days || '0' }}
+          MAX_PER_RUN: ${{ inputs.max_per_run || '15' }}
         run: python watcher.py
 
       - name: Commit inbox + seen.json
