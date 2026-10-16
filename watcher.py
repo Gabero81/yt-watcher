@@ -43,8 +43,27 @@ INBOX = ROOT / "inbox"
 HEADERS = {"Authorization": f"Bearer {KEY}"}
 
 
+LOG_FILE = ROOT / "last_run.log"
+_log_lines: list[str] = []
+
+
 def log(msg: str) -> None:
-    print(f"[watcher] {msg}", flush=True)
+    line = f"[watcher] {msg}"
+    print(line, flush=True)
+    _log_lines.append(line)
+
+
+def flush_log() -> None:
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    LOG_FILE.write_text(f"# last run {stamp}\n" + "\n".join(_log_lines) + "\n")
+
+
+def channel_label(channel: str) -> str:
+    """'https://www.youtube.com/@KenMcElroy' -> 'KenMcElroy'; '@x' -> 'x'; 'UC...' as is."""
+    m = re.search(r"@([A-Za-z0-9._-]+)", channel)
+    if m:
+        return m.group(1)
+    return channel.rstrip("/").split("/")[-1]
 
 
 def load_channels() -> list[str]:
@@ -70,14 +89,21 @@ def save_seen(seen: dict) -> None:
 
 
 def latest_uploads(channel: str) -> list[dict]:
-    r = requests.get(
-        f"{API}/youtube/channel/latest",
-        params={"channel": channel},
-        headers=HEADERS,
-        timeout=20,
-    )
-    r.raise_for_status()
-    return r.json().get("results", [])
+    import time
+    for attempt in range(3):
+        r = requests.get(
+            f"{API}/youtube/channel/latest",
+            params={"channel": channel},
+            headers=HEADERS,
+            timeout=20,
+        )
+        if r.status_code == 429 and attempt < 2:
+            time.sleep(5 * (attempt + 1))
+            continue
+        if r.status_code >= 400:
+            raise RuntimeError(f"HTTP {r.status_code}: {r.text[:160]}")
+        return r.json().get("results", [])
+    return []
 
 
 def get_transcript(video_id: str) -> dict | None:
@@ -165,14 +191,15 @@ def write_inbox_file(channel: str, video: dict, data: dict) -> Path:
     length = fmt_len(data.get("length_seconds"))
     transcript = clean_timestamps(data.get("transcript", "").strip())
 
+    label = channel_label(channel)
     body = (
         f"# {title}\n"
-        f"Channel: {channel} · Published: {published} · Length: {length} · {url}\n"
+        f"Channel: @{label} · Published: {published} · Length: {length} · {url}\n"
         f"Pulled by yt-watcher {today}\n\n"
         f"---\n\n"
         f"{transcript}\n"
     )
-    fname = f"{today} - {safe_name(channel.lstrip('@'), 30)} - {safe_name(title)}.md"
+    fname = f"{today} - {safe_name(label, 30)} - {safe_name(title)}.md"
     path = INBOX / fname
     path.write_text(body, encoding="utf-8")
     return path
@@ -274,6 +301,7 @@ def main() -> int:
     save_seen(seen)
     prune_inbox()
     log(f"done — pulled {pulled}, skipped {skipped}")
+    flush_log()
     return 0
 
 
