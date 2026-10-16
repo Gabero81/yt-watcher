@@ -28,6 +28,9 @@ MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "15"))
 PULL_LATEST_ON_BOOTSTRAP = os.environ.get("PULL_LATEST_ON_BOOTSTRAP", "0") == "1"
 # A single YouTube video ID or URL to pull right now, skipping the channel list.
 TEST_VIDEO = os.environ.get("TEST_VIDEO", "").strip()
+# Inbox files older than this are deleted. The Claude sweep tracks what it has
+# processed on its own side (Drive), so the inbox is just a rolling window.
+INBOX_KEEP_DAYS = int(os.environ.get("INBOX_KEEP_DAYS", "14"))
 
 ROOT = Path(__file__).resolve().parent
 CHANNELS_FILE = ROOT / "channels.txt"
@@ -244,8 +247,27 @@ def main() -> int:
             log(f"{channel}: pulled → {path.name}")
 
     save_seen(seen)
+    prune_inbox()
     log(f"done — pulled {pulled}, skipped {skipped}")
     return 0
+
+
+def prune_inbox() -> None:
+    """Delete inbox files whose leading YYYY-MM-DD is older than INBOX_KEEP_DAYS."""
+    if not INBOX.exists():
+        return
+    cutoff = datetime.now(timezone.utc).timestamp() - INBOX_KEEP_DAYS * 86400
+    for p in INBOX.glob("*.md"):
+        m = re.match(r"(\d{4}-\d{2}-\d{2})", p.name)
+        if not m:
+            continue
+        try:
+            d = datetime.strptime(m.group(1), "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if d.timestamp() < cutoff:
+            p.unlink()
+            log(f"pruned {p.name} (older than {INBOX_KEEP_DAYS} days)")
 
 
 if __name__ == "__main__":
