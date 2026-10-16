@@ -33,7 +33,7 @@ channels.txt  →  GitHub Actions (every 2h)  →  TranscriptAPI  →  inbox/*.m
 
 ## Knobs
 
-- `MIN_SECONDS` in `watch.yml` — skip anything shorter (default 480 = 8 min). Shorts and live streams are always skipped.
+- `MIN_SECONDS` in `watch.yml` — skip anything shorter (default 600 = 10 min). Shorts and live streams are always skipped.
 - `MAX_PER_RUN` — safety cap on transcripts per run (default 15).
 - Cron — `17 */2 * * *` = every 2 hours. Change to `17 */4 * * *` for every 4.
 

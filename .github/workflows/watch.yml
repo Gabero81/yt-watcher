@@ -32,7 +32,7 @@ jobs:
       - name: Pull new transcripts
         env:
           TRANSCRIPTAPI_KEY: ${{ secrets.TRANSCRIPTAPI_KEY }}
-          MIN_SECONDS: "480"
+          MIN_SECONDS: "600"
           PULL_LATEST_ON_BOOTSTRAP: ${{ inputs.pull_latest == true && '1' || '0' }}
           TEST_VIDEO: ${{ inputs.test_video }}
         run: python watcher.py

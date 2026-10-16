@@ -7,7 +7,7 @@ video-breakdown skill on each file.
 
 Env vars:
   TRANSCRIPTAPI_KEY  required
-  MIN_SECONDS        skip videos shorter than this (default 480 = 8 min)
+  MIN_SECONDS        skip videos shorter than this (default 600 = 10 min)
   MAX_PER_RUN        cap transcripts pulled per run (default 15)
 """
 import json
@@ -21,7 +21,7 @@ import requests
 
 API = "https://transcriptapi.com/api/v2"
 KEY = os.environ.get("TRANSCRIPTAPI_KEY")
-MIN_SECONDS = int(os.environ.get("MIN_SECONDS", "480"))
+MIN_SECONDS = int(os.environ.get("MIN_SECONDS", "600"))
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "15"))
 # "1" = on a channel's first sight, pull its single most recent video instead of
 # skipping the whole backlog. Use this to test the pipeline end to end.
