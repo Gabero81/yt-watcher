@@ -9,6 +9,10 @@ on:
         description: "Test mode: pull the most recent video of each NEW channel"
         type: boolean
         default: false
+      test_video:
+        description: "Test mode: pull this one video (URL or ID) right now"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +34,7 @@ jobs:
           TRANSCRIPTAPI_KEY: ${{ secrets.TRANSCRIPTAPI_KEY }}
           MIN_SECONDS: "480"
           PULL_LATEST_ON_BOOTSTRAP: ${{ inputs.pull_latest == true && '1' || '0' }}
+          TEST_VIDEO: ${{ inputs.test_video }}
         run: python watcher.py
 
       - name: Commit inbox + seen.json

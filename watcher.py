@@ -26,6 +26,8 @@ MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "15"))
 # "1" = on a channel's first sight, pull its single most recent video instead of
 # skipping the whole backlog. Use this to test the pipeline end to end.
 PULL_LATEST_ON_BOOTSTRAP = os.environ.get("PULL_LATEST_ON_BOOTSTRAP", "0") == "1"
+# A single YouTube video ID or URL to pull right now, skipping the channel list.
+TEST_VIDEO = os.environ.get("TEST_VIDEO", "").strip()
 
 ROOT = Path(__file__).resolve().parent
 CHANNELS_FILE = ROOT / "channels.txt"
@@ -123,10 +125,36 @@ def write_inbox_file(channel: str, video: dict, data: dict) -> Path:
     return path
 
 
+def video_id_from(s: str) -> str:
+    m = re.search(r"(?:v=|youtu\.be/|shorts/|live/)([A-Za-z0-9_-]{11})", s)
+    return m.group(1) if m else s
+
+
+def pull_one(video_ref: str, seen: dict) -> int:
+    vid = video_id_from(video_ref)
+    log(f"TEST_VIDEO: pulling {vid}")
+    data = get_transcript(vid)
+    if data is None:
+        log(f"{vid}: no captions available (404)")
+        return 1
+    meta = {"videoId": vid, "title": data.get("title") or f"Video {vid}", "published": data.get("published", "unknown")}
+    path = write_inbox_file(data.get("channel") or "test", meta, data)
+    seen["videos"][vid] = {"channel": "test", "status": "inbox", "file": path.name}
+    save_seen(seen)
+    log(f"pulled → {path.name} ({fmt_len(data.get('length_seconds'))})")
+    return 0
+
+
 def main() -> int:
     if not KEY:
         log("TRANSCRIPTAPI_KEY is not set")
         return 1
+
+    if TEST_VIDEO:
+        seen = load_seen()
+        seen.setdefault("videos", {})
+        seen.setdefault("bootstrapped", [])
+        return pull_one(TEST_VIDEO, seen)
 
     channels = load_channels()
     seen = load_seen()
