@@ -1,0 +1,39 @@
+name: yt-watcher
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours, at :17 past
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Pull new transcripts
+        env:
+          TRANSCRIPTAPI_KEY: ${{ secrets.TRANSCRIPTAPI_KEY }}
+          MIN_SECONDS: "480"
+        run: python watcher.py
+
+      - name: Commit inbox + seen.json
+        run: |
+          git config user.name "yt-watcher"
+          git config user.email "yt-watcher@users.noreply.github.com"
+          git add inbox seen.json
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "watcher: $(date -u +'%Y-%m-%d %H:%M') new transcripts"
+            git push
+          fi

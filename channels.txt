@@ -1,0 +1,6 @@
+# One channel per line. @handle, channel URL, or UC... ID all work.
+# Lines starting with # are ignored. Add a line, commit, done.
+#
+# @veritasium
+# https://www.youtube.com/@BiggerPockets
+# UCxxxxxxxxxxxxxxxxxxxxxx
