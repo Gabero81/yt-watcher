@@ -111,7 +111,7 @@ def get_transcript(video_id: str) -> dict | None:
         f"{API}/youtube/transcript",
         params={"video_url": video_id, "format": "text", "include_timestamp": "true"},
         headers=HEADERS,
-        timeout=60,
+        timeout=180,
     )
     if r.status_code == 404:
         return None
