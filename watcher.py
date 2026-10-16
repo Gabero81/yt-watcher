@@ -136,6 +136,25 @@ def is_recent(published, days: int) -> bool:
     return (datetime.now(timezone.utc) - d).total_seconds() <= days * 86400
 
 
+def free_length_check(video_id: str) -> int | None:
+    """Read the video's length off its public YouTube page (no API credit).
+    Returns seconds, or None if it couldn't be read."""
+    try:
+        r = requests.get(
+            f"https://www.youtube.com/watch?v={video_id}",
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en"},
+            timeout=15,
+        )
+        m = re.search(r'"lengthSeconds":"(\d+)"', r.text)
+        if m:
+            return int(m.group(1))
+        if '"isLiveNow":true' in r.text or '"isLive":true' in r.text:
+            return 0
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def safe_name(s: str, limit: int = 60) -> str:
     s = re.sub(r"[\\/:*?\"<>|]+", "", s)
     s = re.sub(r"\s+", " ", s).strip()
@@ -275,6 +294,12 @@ def main() -> int:
             if pulled >= MAX_PER_RUN:
                 log("hit MAX_PER_RUN — remaining videos will be picked up next run")
                 break
+            # Free pre-check: skip short videos / live streams before spending a credit.
+            pre = free_length_check(vid)
+            if pre is not None and pre < MIN_SECONDS:
+                seen["videos"][vid] = {"channel": channel, "status": "too_short_or_live"}
+                skipped += 1
+                continue
             try:
                 data = get_transcript(vid)
             except Exception as e:  # noqa: BLE001
