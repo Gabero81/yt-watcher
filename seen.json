@@ -1,10 +1,949 @@
 {
-  "bootstrapped": [],
+  "bootstrapped": [
+    "https://www.youtube.com/@GrahamStephan",
+    "https://www.youtube.com/@TheIcedCoffeeHour",
+    "https://www.youtube.com/@GeorgeGammon",
+    "https://www.youtube.com/@MeetKevin",
+    "https://www.youtube.com/@DumbMoneyLive",
+    "https://www.youtube.com/@AnthonyPompliano",
+    "https://www.youtube.com/@Bankless",
+    "https://www.youtube.com/@ZeihanonGeopolitics",
+    "https://www.youtube.com/@KenMcElroy",
+    "https://www.youtube.com/@RyanPineda",
+    "https://www.youtube.com/@biggerpockets",
+    "https://www.youtube.com/@TobyMathis",
+    "https://www.youtube.com/@ClintCoons",
+    "https://www.youtube.com/@TheChrisNaugle",
+    "https://www.youtube.com/@AlexHormozi"
+  ],
   "videos": {
+    "-CAIAuCb40Q": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "-RF3IaUUpqM": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "-r8aNg-uH3g": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "file": "2026-10-16 - httpswww.youtube.com@GrahamSte - \u201cAmerica\u2019s Debt Spiral Is Going To Implode Within 3 Years\u201d.md",
+      "status": "inbox"
+    },
+    "-w5_E1jVZHk": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "too_short_or_live"
+    },
+    "01t9LJKv49M": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "07bYQW6t5Gg": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "0MndcK8aaVs": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "0p-CE8_TQ9g": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "0yUWLZX-bpg": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "15V5_vdSOas": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "1wNgpnwenUQ": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "2Gf7yTWth9A": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "2pqKs1qDRTA": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "too_short_or_live"
+    },
+    "3dvRCeZAwC8": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "3milRxLHig4": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "3sFiLsVMcjU": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "4KEgq-Sn55I": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "4cTBXF9sSF0": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "5MrYm4X0a6s": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "file": "2026-10-16 - httpswww.youtube.com@GeorgeGam - The Global Debt Crisis Is Just A Side Show...This Is The Mai.md",
+      "status": "inbox"
+    },
+    "5N3u_Ed2z_M": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "61gifL-29hM": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "6uuVdTYN5mw": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "file": "2026-10-16 - httpswww.youtube.com@TheIcedCo - The Housing Market Is Completely Fd - Stay Away From These S.md",
+      "status": "inbox"
+    },
+    "79oDJdE9CoU": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "file": "2026-10-16 - httpswww.youtube.com@KenMcElro - Adjustable-Rate Mortgages Are Back\u2026 And They're SKYROCKETING.md",
+      "status": "inbox"
+    },
+    "8VPd4oDdYAM": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "8w0iPwhML3M": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "too_short_or_live"
+    },
+    "9c6v-yLww5w": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - Holy Sht Elon Musk's Roadster Reveal [Tesla SpaceX Stock].md",
+      "status": "inbox"
+    },
+    "9gPd00wqhfs": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "too_short_or_live"
+    },
+    "9irqLxcUKcQ": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "file": "2026-10-16 - httpswww.youtube.com@TheChrisN - How To Pay Off Debt WITHOUT Sacrificing Your Wealth!.md",
+      "status": "inbox"
+    },
+    "A2jnhf04k4o": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "A7yrr17VEDo": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - The Shadow Debt Crisis JUST Got Twice as Bad.md",
+      "status": "inbox"
+    },
+    "AEsL5UjlgT4": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "AG8IfMeTa4I": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "AKJLvYqeQEY": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "APo3Jw2QVJk": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "AddvhRaszlM": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "AocL3dyfKOU": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "BDaQXA0Tj80": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "BWNOdHB8TKA": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "C358wmTbV3I": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - Is the Recession Beginning!!!.md",
+      "status": "inbox"
+    },
+    "CSalWT9dJtI": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "CiTs1zJgR4Q": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "CuFmiG00vIg": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "CwFrrSxLX_Y": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "D1KAcBHXP80": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "DYAk1FDhZuU": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "file": "2026-10-16 - httpswww.youtube.com@TobyMathi - How The Wealthy Use Oil & Gas To Reduce Their Tax Bill.md",
+      "status": "inbox"
+    },
+    "Ecli2kmuqMo": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "EtUbcQbrzvU": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "FS5Ab-80Z9Y": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "Ffy80O86UIo": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "FkujUz6-s_w": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "FtXV68IroKo": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "FzXFtSJ1Xkk": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "G-CTsPPV9c4": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "G3GJJ77spgU": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "G5vZo6ZH8uo": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "GIa_Zpoa5II": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "GJ8oSqSq-rQ": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "Gb5hBqdmnUI": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "GnN6zt9uAwk": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "Gw4BTYuTqoM": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "H8QfAfCbOXs": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "file": "2026-10-16 - httpswww.youtube.com@AlexHormo - My honest advice on how to raise your team\u2019s bar.md",
+      "status": "inbox"
+    },
+    "HUoXODtBJuY": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "too_short_or_live"
+    },
+    "HVoFWrUZmPw": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "file": "2026-10-16 - httpswww.youtube.com@TheChrisN - WTF Happened! 10146 Weekly News Update.md",
+      "status": "inbox"
+    },
+    "I39czkmvvW4": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "I8adU5YLz-Y": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "file": "2026-10-16 - httpswww.youtube.com@KenMcElro - How to Actually Make Money With Real Estate.md",
+      "status": "inbox"
+    },
+    "II17pzI50Dc": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "ITNtGon3oWU": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - This CPI Report is Bad for MANY Reasons.md",
+      "status": "inbox"
+    },
+    "IcDsLFqzN5k": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "IxtbKrJO2bA": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "Jot8gGnojBQ": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "JpufIL0n00I": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "JvzI3W9xsu8": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
     "Jzp-VYSecD4": {
       "channel": "test",
       "file": "2026-10-16 - test - Video Jzp-VYSecD4.md",
       "status": "inbox"
+    },
+    "K7UvJQsjMOM": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "KNZJtm33R9A": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "KW2zipzgX44": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "KvRxO96JE6k": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "L89I1ISPKoY": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "LNFLyTPh6SE": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "file": "2026-10-16 - httpswww.youtube.com@Bankless - Cypherpunk Owns $500M of Zcash and 18% of Its Hashrate.md",
+      "status": "inbox"
+    },
+    "LbD0X7AVVxg": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "Lp85WbbSs8Y": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "LtOBk-Q_Lrg": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "file": "2026-10-16 - httpswww.youtube.com@ClintCoon - How To Make Your Brokerage Account Completely INVISIBLE To C.md",
+      "status": "inbox"
+    },
+    "M8vAolvjZGs": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "ME77LPWhuL4": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "MSaWP-SoouQ": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "MbKlEvW9YAQ": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "file": "2026-10-16 - httpswww.youtube.com@AnthonyPo - How to Find the Next 10x Stock Before Everyone Else.md",
+      "status": "inbox"
+    },
+    "MwBQVVSNZb4": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "NCROb1y-cZ0": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "NM3yA1jJw_M": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "file": "2026-10-16 - httpswww.youtube.com@biggerpoc - I\u2019m Ready to Buy.md",
+      "status": "inbox"
+    },
+    "NZGzUEJOpmk": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "NucT9TK9Ds4": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "O-4pkTip5ig": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "O7eF7PK4ND0": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "OCrmVwgA2B8": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "ODBPgjKIdoE": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "OYNUUPHSkHk": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "O_C8Nj1qO-A": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "P4FKRBrCIqA": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "POxTuZBffgE": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "PhTiafGSfF8": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "Q8pMVDvFqPs": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "QME9W1RdkGU": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "RJw5X1JKZOg": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "RYFB0MMavE8": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "SVFn7-HSSYo": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "SZIMXawHTZU": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "SfotrUQvv3k": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "SkyJWI-vJtM": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "StctBbhyWFE": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "U4knTBMcOZM": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "UGyufARbygs": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "UH0JyRyp8k0": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "ULhwSsjmdak": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "UjRBQNYTwow": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "VPq_SpK_Kzg": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "VS1bMYc3pag": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "VuL-bo0GMRg": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "W3pmAjJmX1A": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - Elon Musk & Republicans are Freaking Out.md",
+      "status": "inbox"
+    },
+    "WNbkVHWD6YE": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "WbKJ_LjbNFY": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "WkLNyrQ3MN0": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "file": "2026-10-16 - httpswww.youtube.com@TheChrisN - Ask Me Anything! 101426 Live Stream Happy Hour with the Mone.md",
+      "status": "inbox"
+    },
+    "WqEjlGWK094": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "WsyPVdDjs2Y": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "X2xB7x0bePs": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "XHjzdg83n3k": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - We have JUST 7 days left.md",
+      "status": "inbox"
+    },
+    "XPbXJIMgcd8": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "bootstrap"
+    },
+    "XYNw0FlE_xw": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "Xq9_0S-bEMg": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "file": "2026-10-16 - httpswww.youtube.com@TheChrisN - The 1 Change You Need to Make To Become Your Own Bank Chris.md",
+      "status": "inbox"
+    },
+    "YD5IrExMPVk": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "YbIKPH-rK8w": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "YsptJn4Tc5E": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "YwgSaioYHPM": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "Z8lPJRpmCSY": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "ZGQlCoJvw_o": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "_GTzKLVpGMs": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "too_short_or_live"
+    },
+    "_bOI0jusIX0": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "file": "2026-10-16 - httpswww.youtube.com@biggerpoc - BiggerPockets CEO The Big Changes Coming for Real Estate Inv.md",
+      "status": "inbox"
+    },
+    "_tmIWrWuDZY": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "_zbJim8VEzM": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "aHupj4_Y3Ww": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "too_short_or_live"
+    },
+    "aZSpKw6vvQw": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "ay1bBeattB0": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "file": "2026-10-16 - httpswww.youtube.com@AnthonyPo - How to Spot the Next Big Trade Before Wall Street.md",
+      "status": "inbox"
+    },
+    "bmn1Dbg2hCo": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "cByGGIO2eQI": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "dDTSElQ0I7s": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "file": "2026-10-16 - httpswww.youtube.com@AnthonyPo - GameStop CEO The Machines Are Already Smarter Than Us.md",
+      "status": "inbox"
+    },
+    "dgaQ-sVBO78": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "too_short_or_live"
+    },
+    "dsZc4o_1ja4": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "dzdwZHTci_c": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "enxD5EPAFCE": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "esf75c3-6aE": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "f2Uk6xn3smI": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "f6GUNOxwM3w": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "fCZVsrFPK0s": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "fNtcQH5BXQI": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "fSt4qmz1C_M": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "fX8aSDerkrA": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "too_short_or_live"
+    },
+    "fbbEpNC7WaE": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "ffVClqBX61M": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "g9MEd8V0iL0": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "gEe80Le2ZRU": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "h7Wl_GdHm04": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "hFTaGNz3wCQ": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "h_vXgmqffuc": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "hvJ7KnUxUdI": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "iRbZn1Gb2W0": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "its2QnZF7ck": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "jFir3k_LpTA": {
+      "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "bootstrap"
+    },
+    "jHO-OXiPJBQ": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "jWHj7u2B5j4": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "file": "2026-10-16 - httpswww.youtube.com@Bankless - The Crypto Bull Market Just Got a Reality Check.md",
+      "status": "inbox"
+    },
+    "kNavFpx5U_A": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "l1WslBKXhMk": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "l4C5rFtBVEU": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "l7TxQnvR0Xg": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "lBHBQnGUsHc": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "status": "bootstrap"
+    },
+    "lJO3R8TLwOc": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "too_short_or_live"
+    },
+    "le0hMvuNjCw": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "too_short_or_live"
+    },
+    "m3cMmkH94to": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - why the market just tanked.md",
+      "status": "inbox"
+    },
+    "m6Vzvwnw_Cc": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "mXi5jB-kPJE": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "mtmmiPZiqAE": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "n9ut262nmcQ": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "nBb7Poqf6Ec": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "file": "2026-10-16 - httpswww.youtube.com@TheChrisN - How to Prepare Your Money BEFORE the Next Market Crash Chris.md",
+      "status": "inbox"
+    },
+    "nDf8U_xDJsY": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "file": "2026-10-16 - httpswww.youtube.com@RyanPined - Russell Brunson I Replaced 250 Employees With One AI.md",
+      "status": "inbox"
+    },
+    "nRVOLsrpapc": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "niPqYOqf5GQ": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "oCGxx4FHgCk": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "oFqHr8qWmiA": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "oLBPWG1YXx4": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "too_short_or_live"
+    },
+    "okud6UT2f1Y": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "ot3pioiUEuo": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "paLy21TVecw": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "phN7QDeCM1k": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "pnh61cyMYT8": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "pz0Aypf7nsE": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "file": "2026-10-16 - httpswww.youtube.com@DumbMoney - Is School a Waste of Time.md",
+      "status": "inbox"
+    },
+    "qRfSWyfUQkg": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "qYgPfFhV3d4": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - The Fed JUST Bailed us Out AGAIN What do they SEE!!!.md",
+      "status": "inbox"
+    },
+    "qwTTFTcZWWs": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "r0m6zs83Eo0": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-16 - httpswww.youtube.com@MeetKevin - Kevin Warsh JUST Bailed out the Stock Market HIMSELF.md",
+      "status": "inbox"
+    },
+    "r2wop5sZ5Go": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "rAVx9MiSbjc": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "file": "2026-10-16 - httpswww.youtube.com@AnthonyPo - Bitcoin Is the Toll Collector of the AI Economy.md",
+      "status": "inbox"
+    },
+    "rhiD0l8zrYk": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "t3UNqs4Hjks": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "t6tjwnv6CfE": {
+      "channel": "https://www.youtube.com/@AnthonyPompliano",
+      "status": "bootstrap"
+    },
+    "td7QRcVZwlg": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "file": "2026-10-16 - httpswww.youtube.com@RyanPined - Ryan Pineda Breaks Silence On Quitting Real Estate.md",
+      "status": "inbox"
+    },
+    "ttConkEptHQ": {
+      "channel": "https://www.youtube.com/@TheChrisNaugle",
+      "status": "bootstrap"
+    },
+    "uYAktQIxutY": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "uqrWjKw3Ypo": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "usc6AXAKNrM": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
+    "vTqfEy9DzNQ": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "vfnSh0Fimus": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "vgKIiswax_E": {
+      "channel": "https://www.youtube.com/@RyanPineda",
+      "status": "bootstrap"
+    },
+    "whrkGB2qT6w": {
+      "channel": "https://www.youtube.com/@KenMcElroy",
+      "status": "bootstrap"
+    },
+    "whsH-vtKOGw": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "wsX7BBEin-4": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "status": "bootstrap"
+    },
+    "x4srvbVIpJk": {
+      "channel": "https://www.youtube.com/@TobyMathis",
+      "file": "2026-10-16 - httpswww.youtube.com@TobyMathi - 10 Tax Moves You Need To Make Before December (DO THIS NOW).md",
+      "status": "inbox"
+    },
+    "xYYIDtm82uo": {
+      "channel": "https://www.youtube.com/@GrahamStephan",
+      "status": "bootstrap"
+    },
+    "yjHGIbbri_E": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
+    },
+    "yygH0lmDD_Q": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "z0F8epMs9dY": {
+      "channel": "https://www.youtube.com/@ClintCoons",
+      "status": "bootstrap"
+    },
+    "z0IJrKHXL5A": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "bootstrap"
+    },
+    "zZWplko44CQ": {
+      "channel": "https://www.youtube.com/@GeorgeGammon",
+      "status": "bootstrap"
+    },
+    "zenaYNf5T7Y": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "file": "2026-10-16 - httpswww.youtube.com@biggerpoc - We Only Needed 3 Rentals to Quit Our Jobs (and Travel the Wo.md",
+      "status": "inbox"
+    },
+    "zo6Kvt7MNuk": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "bootstrap"
+    },
+    "zzO_7BqhKKs": {
+      "channel": "https://www.youtube.com/@DumbMoneyLive",
+      "status": "too_short_or_live"
     }
   }
 }
