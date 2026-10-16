@@ -102,6 +102,36 @@ def fmt_len(seconds) -> str:
     return f"{h}h {m:02d}m" if h else f"{m} min"
 
 
+def clean_timestamps(text: str) -> str:
+    """Turn '[123.45s] words' into '[02:03] words', and merge caption fragments into
+    one line per ~20 seconds so the transcript reads like prose, not karaoke."""
+    def mmss(sec: float) -> str:
+        sec = int(sec)
+        h, rem = divmod(sec, 3600)
+        m, s = divmod(rem, 60)
+        return f"[{h}:{m:02d}:{s:02d}]" if h else f"[{m:02d}:{s:02d}]"
+
+    out, buf, bucket = [], [], None
+    for line in text.splitlines():
+        m = re.match(r"\[(\d+(?:\.\d+)?)s\]\s*(.*)", line)
+        if not m:
+            if line.strip():
+                buf.append(line.strip())
+            continue
+        t, words = float(m.group(1)), m.group(2).strip()
+        b = int(t // 20)
+        if bucket is None or b != bucket:
+            if buf:
+                out.append(" ".join(buf))
+            buf = [mmss(t), words] if words else [mmss(t)]
+            bucket = b
+        elif words:
+            buf.append(words)
+    if buf:
+        out.append(" ".join(buf))
+    return "\n".join(out) if out else text
+
+
 def write_inbox_file(channel: str, video: dict, data: dict) -> Path:
     INBOX.mkdir(exist_ok=True)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -110,7 +140,7 @@ def write_inbox_file(channel: str, video: dict, data: dict) -> Path:
     url = f"https://www.youtube.com/watch?v={vid}"
     published = video.get("published", "unknown")
     length = fmt_len(data.get("length_seconds"))
-    transcript = data.get("transcript", "").strip()
+    transcript = clean_timestamps(data.get("transcript", "").strip())
 
     body = (
         f"# {title}\n"
