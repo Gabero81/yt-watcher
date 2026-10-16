@@ -1,6 +1,42 @@
 # One channel per line. @handle, channel URL, or UC... ID all work.
 # Lines starting with # are ignored. Add a line, commit, done.
-#
-# @veritasium
-# https://www.youtube.com/@BiggerPockets
-# UCxxxxxxxxxxxxxxxxxxxxxx
+
+# Money / markets / macro
+https://www.youtube.com/@GrahamStephan
+https://www.youtube.com/@TheIcedCoffeeHour
+https://www.youtube.com/@GeorgeGammon
+https://www.youtube.com/@MeetKevin
+https://www.youtube.com/@DumbMoneyLive
+https://www.youtube.com/@AnthonyPompliano
+https://www.youtube.com/@Bankless
+https://www.youtube.com/@ZeihanonGeopolitics
+
+# Real estate / tax / asset protection
+https://www.youtube.com/@KenMcElroy
+https://www.youtube.com/@RyanPineda
+https://www.youtube.com/@biggerpockets
+https://www.youtube.com/@TobyMathis
+https://www.youtube.com/@ClintCoons
+https://www.youtube.com/@TheChrisNaugle
+
+# Business / growth
+https://www.youtube.com/@AlexHormozi
+https://www.youtube.com/@PBDPodcast
+https://www.youtube.com/@VALUETAINMENT
+https://www.youtube.com/@thekoerneroffice
+https://www.youtube.com/@THEREALBRADLEA
+https://www.youtube.com/@Healthpreneur
+https://www.youtube.com/@mreflow
+
+# Mindset / faith / interviews
+https://www.youtube.com/@DavidBayer33
+https://www.youtube.com/@BibleStudyWithMyronGolden
+https://www.youtube.com/@TheDiaryOfACEO
+https://www.youtube.com/@TheDiaryOfACEOClips
+https://www.youtube.com/@lewishowes
+https://www.youtube.com/@ShawnRyanShow
+https://www.youtube.com/@Powerspod
+https://www.youtube.com/@EdMylettShow
+https://www.youtube.com/@MoGawdatOfficial
+https://www.youtube.com/@ChrisWillx
+https://www.youtube.com/@HeroicBrian
