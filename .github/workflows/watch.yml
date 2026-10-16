@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours, at :17 past
   workflow_dispatch:         # lets you run it by hand from the Actions tab
+    inputs:
+      pull_latest:
+        description: "Test mode: pull the most recent video of each NEW channel"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -24,6 +29,7 @@ jobs:
         env:
           TRANSCRIPTAPI_KEY: ${{ secrets.TRANSCRIPTAPI_KEY }}
           MIN_SECONDS: "480"
+          PULL_LATEST_ON_BOOTSTRAP: ${{ inputs.pull_latest == true && '1' || '0' }}
         run: python watcher.py
 
       - name: Commit inbox + seen.json

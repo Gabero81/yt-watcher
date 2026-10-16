@@ -23,6 +23,9 @@ API = "https://transcriptapi.com/api/v2"
 KEY = os.environ.get("TRANSCRIPTAPI_KEY")
 MIN_SECONDS = int(os.environ.get("MIN_SECONDS", "480"))
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "15"))
+# "1" = on a channel's first sight, pull its single most recent video instead of
+# skipping the whole backlog. Use this to test the pipeline end to end.
+PULL_LATEST_ON_BOOTSTRAP = os.environ.get("PULL_LATEST_ON_BOOTSTRAP", "0") == "1"
 
 ROOT = Path(__file__).resolve().parent
 CHANNELS_FILE = ROOT / "channels.txt"
@@ -142,11 +145,15 @@ def main() -> int:
         # First time we see a channel, remember its backlog without pulling it.
         # Only videos published AFTER bootstrap get transcribed.
         if channel not in seen["bootstrapped"]:
+            keep = uploads[:1] if PULL_LATEST_ON_BOOTSTRAP else []
             for v in uploads:
-                seen["videos"][v["videoId"]] = {"channel": channel, "status": "bootstrap"}
+                if v not in keep:
+                    seen["videos"][v["videoId"]] = {"channel": channel, "status": "bootstrap"}
             seen["bootstrapped"].append(channel)
-            log(f"{channel}: bootstrapped {len(uploads)} existing videos (not pulled)")
-            continue
+            log(f"{channel}: bootstrapped {len(uploads) - len(keep)} existing videos (not pulled)")
+            uploads = keep
+            if not uploads:
+                continue
 
         for v in uploads:
             vid = v.get("videoId")
