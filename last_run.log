@@ -1,7 +1,3 @@
-# last run 2026-10-17 15:33 UTC
-[watcher] https://www.youtube.com/@AnthonyPompliano: pulled → 2026-10-17 - AnthonyPompliano - Is Bitcoin Ready To Rip While Wall Street Breaks.md
-[watcher] https://www.youtube.com/@RyanPineda fBzpwnev4qw: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=fBzpwnev4qw&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@Healthpreneur sowJwNqa56I: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=sowJwNqa56I&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@Healthpreneur: pulled → 2026-10-17 - Healthpreneur - The ONLY Youtube Training You'll EVER Need to Watch.md
-[watcher] https://www.youtube.com/@EdMylettShow: pulled → 2026-10-17 - EdMylettShow - This Will Save You 30+ Years of Wasted Life Ed Mylett.md
-[watcher] done — pulled 3, skipped 5
+# last run 2026-10-17 18:29 UTC
+[watcher] https://www.youtube.com/@ChrisWillx: pulled → 2026-10-17 - ChrisWillx - Father Of Quantum Computing How To Think Like A Genius - Dav.md
+[watcher] done — pulled 1, skipped 3
