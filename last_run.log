@@ -1,3 +1,3 @@
-# last run 2026-10-18 15:52 UTC
-[watcher] https://www.youtube.com/@RyanPineda Km61OpvhFrM: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Km61OpvhFrM&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 0, skipped 7
+# last run 2026-10-18 18:38 UTC
+[watcher] https://www.youtube.com/@ChrisWillx: pulled → 2026-10-18 - ChrisWillx - “No One Wants Advice. They Want Permission.”.md
+[watcher] done — pulled 1, skipped 1
