@@ -1,5 +1,3 @@
-# last run 2026-10-21 00:38 UTC
-[watcher] https://www.youtube.com/@TheIcedCoffeeHour 9q441EWN3zg: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=9q441EWN3zg&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-21 - MeetKevin - holy sht spaceX stock.md
+# last run 2026-10-21 07:38 UTC
 [watcher] https://www.youtube.com/@EdMylettShow Xk-bxI6YFGc: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Xk-bxI6YFGc&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 1, skipped 6
+[watcher] done — pulled 0, skipped 10
