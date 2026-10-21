@@ -1,3 +1,9 @@
-# last run 2026-10-21 07:38 UTC
-[watcher] https://www.youtube.com/@EdMylettShow Xk-bxI6YFGc: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Xk-bxI6YFGc&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 0, skipped 10
+# last run 2026-10-21 13:47 UTC
+[watcher] https://www.youtube.com/@TexasEnergyandPower: bootstrapped 15 existing videos (not pulled)
+[watcher] https://www.youtube.com/@biggerpockets: pulled → 2026-10-21 - biggerpockets - Was Dave Ramsey Right About Rentals (Don't Use Debt).md
+[watcher] https://www.youtube.com/@PBDPodcast 8G6u9ifd71A: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=8G6u9ifd71A&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@lewishowes Jepf28etsoM: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Jepf28etsoM&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@lewishowes iu3yPz03IEQ: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=iu3yPz03IEQ&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@Powerspod: pulled → 2026-10-21 - Powerspod - Ross Perot Jr. on Why Texas Keeps Winning (#434).md
+[watcher] https://www.youtube.com/@EdMylettShow: pulled → 2026-10-21 - EdMylettShow - Do This After Losing Everything Darryl Strawberry.md
+[watcher] done — pulled 3, skipped 8
