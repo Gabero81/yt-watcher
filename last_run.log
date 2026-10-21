@@ -1,8 +1,5 @@
-# last run 2026-10-20 21:37 UTC
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-20 - MeetKevin - The NEXT Frontier THESE 3 Stocks Boom.md
-[watcher] https://www.youtube.com/@AnthonyPompliano: pulled → 2026-10-20 - AnthonyPompliano - Bitcoin Is Just Getting Started, Says Billion Dollar Investo.md
-[watcher] https://www.youtube.com/@KenMcElroy: pulled → 2026-10-20 - KenMcElroy - The Untapped Opportunity of Mini-Mailboxes.md
-[watcher] https://www.youtube.com/@TobyMathis: pulled → 2026-10-20 - TobyMathis - The Best Way To Give Money To Your Kids And Grandkids Just C.md
-[watcher] https://www.youtube.com/@TheDiaryOfACEOClips: pulled → 2026-10-20 - TheDiaryOfACEOClips - ChatGPT Whistleblower WARNS “You’re Being LIED To.md
+# last run 2026-10-21 00:38 UTC
+[watcher] https://www.youtube.com/@TheIcedCoffeeHour 9q441EWN3zg: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=9q441EWN3zg&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-21 - MeetKevin - holy sht spaceX stock.md
 [watcher] https://www.youtube.com/@EdMylettShow Xk-bxI6YFGc: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Xk-bxI6YFGc&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 5, skipped 9
+[watcher] done — pulled 1, skipped 6
