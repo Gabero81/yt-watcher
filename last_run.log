@@ -1,4 +1,3 @@
-# last run 2026-10-23 00:42 UTC
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-23 - MeetKevin - damn.md
-[watcher] https://www.youtube.com/@AnthonyPompliano: pulled → 2026-10-23 - AnthonyPompliano - Dan Ives on AI, Tesla, SpaceX, Coreweave, and more.md
-[watcher] done — pulled 2, skipped 12
+# last run 2026-10-23 07:31 UTC
+[watcher] https://www.youtube.com/@AlexHormozi 1bEZIkmTAeA: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=1bEZIkmTAeA&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 0, skipped 11
