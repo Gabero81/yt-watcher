@@ -35,6 +35,10 @@
     "https://www.youtube.com/@TexasEnergyandPower"
   ],
   "videos": {
+    "--6RjZZ7U18": {
+      "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
+      "status": "too_short_or_live"
+    },
     "-1M9rsHUVFI": {
       "channel": "https://www.youtube.com/@MeetKevin",
       "status": "too_short_or_live"
@@ -168,6 +172,10 @@
       "channel": "https://www.youtube.com/@PBDPodcast",
       "status": "too_short_or_live"
     },
+    "1bEZIkmTAeA": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
     "1pB-vFqkwDo": {
       "channel": "https://www.youtube.com/@MoGawdatOfficial",
       "status": "bootstrap"
@@ -286,6 +294,10 @@
     },
     "3zPdeGN0aq8": {
       "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
+    },
+    "4AUWaoe4Qzw": {
+      "channel": "https://www.youtube.com/@THEREALBRADLEA",
       "status": "too_short_or_live"
     },
     "4DrkLyosnvk": {
@@ -859,6 +871,10 @@
     "EtUbcQbrzvU": {
       "channel": "https://www.youtube.com/@Bankless",
       "status": "bootstrap"
+    },
+    "FMfxLf2QAao": {
+      "channel": "https://www.youtube.com/@biggerpockets",
+      "status": "no_captions"
     },
     "FN5Sk8ODOU8": {
       "channel": "https://www.youtube.com/@TobyMathis",
@@ -1743,6 +1759,10 @@
       "channel": "https://www.youtube.com/@ChrisWillx",
       "status": "too_short_or_live"
     },
+    "VL5sbDFm6w8": {
+      "channel": "https://www.youtube.com/@PBDPodcast",
+      "status": "too_short_or_live"
+    },
     "VO44E59ZEoI": {
       "channel": "https://www.youtube.com/@THEREALBRADLEA",
       "status": "too_short_or_live"
@@ -1824,6 +1844,10 @@
     "WLq7cdrpZTM": {
       "channel": "https://www.youtube.com/@MeetKevin",
       "status": "no_captions"
+    },
+    "WLwH3Yc_uu4": {
+      "channel": "https://www.youtube.com/@TheDiaryOfACEO",
+      "status": "too_short_or_live"
     },
     "WNbkVHWD6YE": {
       "channel": "https://www.youtube.com/@TheChrisNaugle",
@@ -2416,6 +2440,10 @@
       "channel": "https://www.youtube.com/@Powerspod",
       "status": "too_short_or_live"
     },
+    "gbNQZnMI_Iw": {
+      "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
     "gfQSkHyKyHo": {
       "channel": "https://www.youtube.com/@ShawnRyanShow",
       "file": "2026-10-19 - ShawnRyanShow - AJ Gentile - Was an Ancient Civilization on Mars Destroyed b.md",
@@ -2911,6 +2939,11 @@
       "file": "2026-10-16 - httpswww.youtube.com@DumbMoney - Is School a Waste of Time.md",
       "status": "inbox"
     },
+    "q63GRIQ0ves": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "file": "2026-10-23 - Bankless - The Internet Is Under Attack. Is Crypto Next.md",
+      "status": "inbox"
+    },
     "qDzg-xvkeXw": {
       "channel": "https://www.youtube.com/@TheDiaryOfACEO",
       "status": "bootstrap"
@@ -3154,6 +3187,10 @@
     },
     "vN6GxUvuVM0": {
       "channel": "https://www.youtube.com/@AlexHormozi",
+      "status": "too_short_or_live"
+    },
+    "vOiLHTZuum8": {
+      "channel": "https://www.youtube.com/@RyanPineda",
       "status": "too_short_or_live"
     },
     "vPrsua9du5Q": {

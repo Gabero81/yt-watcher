@@ -1,3 +1,7 @@
-# last run 2026-10-23 07:31 UTC
-[watcher] https://www.youtube.com/@AlexHormozi 1bEZIkmTAeA: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=1bEZIkmTAeA&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 0, skipped 11
+# last run 2026-10-23 13:25 UTC
+[watcher] https://www.youtube.com/@Bankless: pulled → 2026-10-23 - Bankless - The Internet Is Under Attack. Is Crypto Next.md
+[watcher] https://www.youtube.com/@biggerpockets FMfxLf2QAao: no captions — skipped (MediaScribe fallback)
+[watcher] https://www.youtube.com/@AlexHormozi Hz0rgE_XIkE: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Hz0rgE_XIkE&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@AlexHormozi Syusa8De8Ak: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Syusa8De8Ak&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@lewishowes 277IbejSupU: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=277IbejSupU&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 1, skipped 8
