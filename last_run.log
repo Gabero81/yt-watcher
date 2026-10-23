@@ -1,10 +1,4 @@
-# last run 2026-10-22 21:35 UTC
-[watcher] https://www.youtube.com/@MeetKevin kL6x3Rs_1pM: no captions — skipped (MediaScribe fallback)
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-22 - MeetKevin - DO THIS BEFORE The Tesla SpaceX Merger!!.md
-[watcher] https://www.youtube.com/@RyanPineda: pulled → 2026-10-22 - RyanPineda - The New Era of Social Media Can Make You Filthy Rich!.md
-[watcher] https://www.youtube.com/@AlexHormozi x1HHB8ImPyw: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=x1HHB8ImPyw&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@TheDiaryOfACEOClips: pulled → 2026-10-22 - TheDiaryOfACEOClips - The BRUTAL Truth About Psychopaths No One Tells You.md
-[watcher] https://www.youtube.com/@ShawnRyanShow WXJxWzE9Le8: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=WXJxWzE9Le8&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ShawnRyanShow JJAJJ_IPQPw: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=JJAJJ_IPQPw&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ShawnRyanShow: pulled → 2026-10-22 - ShawnRyanShow - Mike Hayes - The Navy SEAL in Obama’s Situation Room During.md
-[watcher] done — pulled 4, skipped 11
+# last run 2026-10-23 00:42 UTC
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-23 - MeetKevin - damn.md
+[watcher] https://www.youtube.com/@AnthonyPompliano: pulled → 2026-10-23 - AnthonyPompliano - Dan Ives on AI, Tesla, SpaceX, Coreweave, and more.md
+[watcher] done — pulled 2, skipped 12
