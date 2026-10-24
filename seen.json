@@ -1565,6 +1565,11 @@
       "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
       "status": "too_short_or_live"
     },
+    "PlQk8tOSHWw": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-24 - MeetKevin - an honest review of the iPhone Duo.md",
+      "status": "inbox"
+    },
     "PqIdw1ipTk4": {
       "channel": "https://www.youtube.com/@PBDPodcast",
       "status": "no_captions"
@@ -2353,8 +2358,17 @@
       "file": "2026-10-23 - TobyMathis - Your Tax Bill Doesn't Have To Be This High - Here's How To L.md",
       "status": "inbox"
     },
+    "b51mx9usZYc": {
+      "channel": "https://www.youtube.com/@Bankless",
+      "file": "2026-10-24 - Bankless - Black October! What Is Happening to the Internet.md",
+      "status": "inbox"
+    },
     "b5MAlATRut4": {
       "channel": "https://www.youtube.com/@TheIcedCoffeeHour",
+      "status": "too_short_or_live"
+    },
+    "bBjV-gbOA58": {
+      "channel": "https://www.youtube.com/@ChrisWillx",
       "status": "too_short_or_live"
     },
     "bEO6OBnVA08": {
@@ -2785,6 +2799,10 @@
     "jHO-OXiPJBQ": {
       "channel": "https://www.youtube.com/@KenMcElroy",
       "status": "bootstrap"
+    },
+    "jKJ7SSCE-yk": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "status": "too_short_or_live"
     },
     "jWHj7u2B5j4": {
       "channel": "https://www.youtube.com/@Bankless",
@@ -3465,6 +3483,11 @@
     "vYi8WGdI_s0": {
       "channel": "https://www.youtube.com/@TheDiaryOfACEO",
       "status": "too_short_or_live"
+    },
+    "vf4t6tS44dw": {
+      "channel": "https://www.youtube.com/@ChrisWillx",
+      "file": "2026-10-24 - ChrisWillx - Positive Psychology Founder How To Stop Your Negative Though.md",
+      "status": "inbox"
     },
     "vfnSh0Fimus": {
       "channel": "https://www.youtube.com/@AlexHormozi",
