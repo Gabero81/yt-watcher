@@ -1,4 +1,2 @@
-# last run 2026-10-25 04:40 UTC
-[watcher] https://www.youtube.com/@DumbMoneyLive HFlmQooSAh0: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=HFlmQooSAh0&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ShawnRyanShow glnAhilv3z0: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=glnAhilv3z0&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 0, skipped 9
+# last run 2026-10-25 11:24 UTC
+[watcher] done — pulled 0, skipped 5
