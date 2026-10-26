@@ -1,4 +1,8 @@
-# last run 2026-10-26 04:46 UTC
-[watcher] https://www.youtube.com/@DumbMoneyLive BuflFQoNFUg: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=BuflFQoNFUg&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ShawnRyanShow 4TtdMh6voPo: no captions — skipped (MediaScribe fallback)
-[watcher] done — pulled 0, skipped 6
+# last run 2026-10-26 12:59 UTC
+[watcher] https://www.youtube.com/@Bankless: pulled → 2026-10-26 - Bankless - Is Bitcoin Signaling the Next Bull Market.md
+[watcher] https://www.youtube.com/@ZeihanonGeopolitics: pulled → 2026-10-26 - ZeihanonGeopolitics - Data Centers A Necessary Evil...Kinda Peter Zeihan.md
+[watcher] https://www.youtube.com/@AlexHormozi dr27JNg8mLc: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=dr27JNg8mLc&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@mreflow B8YFkYY20OY: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=B8YFkYY20OY&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@DavidBayer33: pulled → 2026-10-26 - DavidBayer33 - This Louise Hay Technique Will Make You Dangerously Magnetic.md
+[watcher] https://www.youtube.com/@TheDiaryOfACEO: pulled → 2026-10-26 - TheDiaryOfACEO - Mark Cuban The Brutal Truth About The Next Market Crash!.md
+[watcher] done — pulled 4, skipped 5
