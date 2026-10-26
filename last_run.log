@@ -1,3 +1,4 @@
-# last run 2026-10-25 22:33 UTC
-[watcher] https://www.youtube.com/@thekoerneroffice: pulled → 2026-10-25 - thekoerneroffice - Sounds Too Simple, But One Client Pays $15KMonth.md
-[watcher] done — pulled 1, skipped 9
+# last run 2026-10-26 04:46 UTC
+[watcher] https://www.youtube.com/@DumbMoneyLive BuflFQoNFUg: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=BuflFQoNFUg&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@ShawnRyanShow 4TtdMh6voPo: no captions — skipped (MediaScribe fallback)
+[watcher] done — pulled 0, skipped 6
