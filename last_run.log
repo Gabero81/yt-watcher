@@ -1,15 +1,4 @@
-# last run 2026-10-31 05:38 UTC
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-10-31 - MeetKevin - Sk Hynix JUST Accidentally Revealed the Truth The AI Bubble.md
-[watcher] pruned 2026-10-17 - THEREALBRADLEA - The $50KMonth Business Nobody Talks About (No Experience Nee.md (older than 14 days)
-[watcher] pruned 2026-10-17 - MeetKevin - How I’m Playing the Next Gold & Bullion Supercycle.md (older than 14 days)
-[watcher] pruned 2026-10-17 - AnthonyPompliano - Is Bitcoin Ready To Rip While Wall Street Breaks.md (older than 14 days)
-[watcher] pruned 2026-10-17 - ChrisWillx - Father Of Quantum Computing How To Think Like A Genius - Dav.md (older than 14 days)
-[watcher] pruned 2026-10-17 - MeetKevin - The Collapse is Starting Is this the Black Swan.md (older than 14 days)
-[watcher] pruned 2026-10-17 - lewishowes - I Flew to Egypt to Chase My Dreams.md (older than 14 days)
-[watcher] pruned 2026-10-17 - Healthpreneur - The ONLY Youtube Training You'll EVER Need to Watch.md (older than 14 days)
-[watcher] pruned 2026-10-17 - TheDiaryOfACEOClips - If YOU Doubt A Higher Power, You NEED To See This.md (older than 14 days)
-[watcher] pruned 2026-10-17 - GeorgeGammon - A Secret Global Monetary Reset Has Started (Watch Before Thi.md (older than 14 days)
-[watcher] pruned 2026-10-17 - THEREALBRADLEA - Why Ferrari & Rolex Decide Who Gets to Buy.md (older than 14 days)
-[watcher] pruned 2026-10-17 - TheChrisNaugle - What Happens When You Use Debt To Pay Off Debt.md (older than 14 days)
-[watcher] pruned 2026-10-17 - EdMylettShow - This Will Save You 30+ Years of Wasted Life Ed Mylett.md (older than 14 days)
-[watcher] done — pulled 1, skipped 5
+# last run 2026-10-31 12:25 UTC
+[watcher] https://www.youtube.com/@TexasEnergyandPower: could not list uploads (HTTPSConnectionPool(host='transcriptapi.com', port=443): Read timed out. (read timeout=20))
+[watcher] https://www.youtube.com/@EdMylettShow rGcGxtHiXBo: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=rGcGxtHiXBo&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 0, skipped 3
