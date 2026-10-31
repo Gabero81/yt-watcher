@@ -1094,6 +1094,10 @@
       "channel": "https://www.youtube.com/@DavidBayer33",
       "status": "bootstrap"
     },
+    "CUS3_9PcED4": {
+      "channel": "https://www.youtube.com/@PBDPodcast",
+      "status": "too_short_or_live"
+    },
     "Cb1IYgvSoq0": {
       "channel": "https://www.youtube.com/@AlexHormozi",
       "status": "too_short_or_live"
@@ -1829,6 +1833,10 @@
       "file": "2026-10-22 - MeetKevin - FK Restarting Strikes.md",
       "status": "inbox"
     },
+    "LX0t457dfi8": {
+      "channel": "https://www.youtube.com/@ShawnRyanShow",
+      "status": "too_short_or_live"
+    },
     "LXU43MBPQMo": {
       "channel": "https://www.youtube.com/@Healthpreneur",
       "status": "too_short_or_live"
@@ -2239,6 +2247,11 @@
       "file": "2026-10-19 - biggerpockets - Buy 3 Rentals. Pay Them Off. Financial Freedom.md",
       "status": "inbox"
     },
+    "R6CTLeHIJBY": {
+      "channel": "https://www.youtube.com/@MeetKevin",
+      "file": "2026-10-31 - MeetKevin - Sk Hynix JUST Accidentally Revealed the Truth The AI Bubble.md",
+      "status": "inbox"
+    },
     "RJR62SrNFkQ": {
       "channel": "https://www.youtube.com/@PBDPodcast",
       "status": "too_short_or_live"
@@ -2269,6 +2282,10 @@
     },
     "RvWn8dCuDBc": {
       "channel": "https://www.youtube.com/@lewishowes",
+      "status": "too_short_or_live"
+    },
+    "Rw18hmbfIyk": {
+      "channel": "https://www.youtube.com/@THEREALBRADLEA",
       "status": "too_short_or_live"
     },
     "RwyOrEoa1cE": {
@@ -4777,6 +4794,10 @@
       "channel": "https://www.youtube.com/@ZeihanonGeopolitics",
       "status": "too_short_or_live"
     },
+    "v8hb-I28bUY": {
+      "channel": "https://www.youtube.com/@ShawnRyanShow",
+      "status": "too_short_or_live"
+    },
     "vD_LSaLj8-s": {
       "channel": "https://www.youtube.com/@THEREALBRADLEA",
       "status": "too_short_or_live"
@@ -5121,6 +5142,10 @@
       "channel": "https://www.youtube.com/@KenMcElroy",
       "file": "2026-10-20 - KenMcElroy - The Untapped Opportunity of Mini-Mailboxes.md",
       "status": "inbox"
+    },
+    "ze628bB0tpI": {
+      "channel": "https://www.youtube.com/@HeroicBrian",
+      "status": "too_short_or_live"
     },
     "zenaYNf5T7Y": {
       "channel": "https://www.youtube.com/@biggerpockets",
