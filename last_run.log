@@ -1,6 +1,7 @@
-# last run 2026-10-31 23:25 UTC
-[watcher] https://www.youtube.com/@PBDPodcast OUpLviYO9wI: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=OUpLviYO9wI&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@thekoerneroffice: pulled → 2026-10-31 - thekoerneroffice - The Most Overlooked One-Man Business $20 to Start.md
-[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-10-31 - THEREALBRADLEA - The 5 Steps to Sell Anything to Anyone (Brad Lea's Sales Sys.md
-[watcher] https://www.youtube.com/@TheDiaryOfACEOClips: pulled → 2026-10-31 - TheDiaryOfACEOClips - Scientist WARNS Missing THIS Is As Bad As Smoking.md
-[watcher] done — pulled 3, skipped 8
+# last run 2026-11-01 06:01 UTC
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-01 - MeetKevin - You've been WARNED.md
+[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-01 - THEREALBRADLEA - HOW TO GET RICH — R3X System with Brad Lea.md
+[watcher] pruned 2026-10-18 - ChrisWillx - “No One Wants Advice. They Want Permission.”.md (older than 14 days)
+[watcher] pruned 2026-10-18 - THEREALBRADLEA - Tom Bilyeu The $8M Build Now Costs $650K — AI Just Changed E.md (older than 14 days)
+[watcher] pruned 2026-10-18 - TheIcedCoffeeHour - Asking A 30-Year-Old Billionaire CEO How He’d Make $1,000,00.md (older than 14 days)
+[watcher] done — pulled 2, skipped 4
