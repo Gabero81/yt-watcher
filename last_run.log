@@ -1,8 +1,21 @@
-# last run 2026-11-04 12:06 UTC
-[watcher] https://www.youtube.com/@TheIcedCoffeeHour TtT_5rRZc_U: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=TtT_5rRZc_U&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@MeetKevin LEkfQUtrP3w: no captions — skipped (MediaScribe fallback)
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-04 - MeetKevin - YIKES The Election JUST Flipped Everything.md
-[watcher] https://www.youtube.com/@PBDPodcast Shnsw2-qp0g: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Shnsw2-qp0g&format=text&include_timestamp=true) — will retry next run
+# last run 2026-11-04 19:43 UTC
+[watcher] https://www.youtube.com/@GrahamStephan: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@TheIcedCoffeeHour: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@GeorgeGammon: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@MeetKevin: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@DumbMoneyLive: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@AnthonyPompliano: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@Bankless: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@ZeihanonGeopolitics: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@TexasEnergyandPower: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@KenMcElroy: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@RyanPineda: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@biggerpockets: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@TobyMathis: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@ClintCoons: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@TheChrisNaugle: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@AlexHormozi: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
+[watcher] https://www.youtube.com/@PBDPodcast: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
 [watcher] https://www.youtube.com/@VALUETAINMENT: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
 [watcher] https://www.youtube.com/@thekoerneroffice: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
 [watcher] https://www.youtube.com/@THEREALBRADLEA: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
@@ -19,4 +32,4 @@
 [watcher] https://www.youtube.com/@MoGawdatOfficial: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
 [watcher] https://www.youtube.com/@ChrisWillx: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
 [watcher] https://www.youtube.com/@HeroicBrian: could not list uploads (HTTP 402: {"detail":{"message":"You have an active plan, but you’ve run out of credits. Your current plan period runs until 2026-11-16. Top up now to keep going.","reason)
-[watcher] done — pulled 1, skipped 6
+[watcher] done — pulled 0, skipped 0
