@@ -1,5 +1,4 @@
-# last run 2026-11-21 03:14 UTC
-[watcher] https://www.youtube.com/@AnthonyPompliano: pulled → 2026-11-21 - AnthonyPompliano - Should You Buy the Anthropic IPO.md
-[watcher] https://www.youtube.com/@AlexHormozi Xa2kd4MPAiY: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=Xa2kd4MPAiY&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ShawnRyanShow 4R9Sk_Hb1uk: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=4R9Sk_Hb1uk&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 1, skipped 12
+# last run 2026-11-21 12:38 UTC
+[watcher] https://www.youtube.com/@EdMylettShow: pulled → 2026-11-21 - EdMylettShow - The Secret to Finding Your Purpose (and Real Happiness) Ed M.md
+[watcher] https://www.youtube.com/@HeroicBrian M1jAV1JGAX0: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=M1jAV1JGAX0&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 1, skipped 7
