@@ -1,5 +1,5 @@
-# last run 2026-11-22 02:13 UTC
+# last run 2026-11-22 09:46 UTC
 [watcher] https://www.youtube.com/@GrahamStephan U2GjDh_Mc5g: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=U2GjDh_Mc5g&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-22 - THEREALBRADLEA - Brad Lea “It's All A LIE!.md
-[watcher] https://www.youtube.com/@THEREALBRADLEA 2pX3mQBCxqE: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=2pX3mQBCxqE&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 1, skipped 11
+[watcher] https://www.youtube.com/@ShawnRyanShow 6VrJUnPsZoM: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=6VrJUnPsZoM&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@HeroicBrian _Sepj7xKkTU: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=_Sepj7xKkTU&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 0, skipped 3
