@@ -1,8 +1,7 @@
-# last run 2026-11-22 17:50 UTC
-[watcher] https://www.youtube.com/@TheIcedCoffeeHour 6TXle3GL-wE: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=6TXle3GL-wE&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@TheIcedCoffeeHour: pulled → 2026-11-22 - TheIcedCoffeeHour - EMERGENCY UPLOAD The Stock Market Is Under Attack - Do This.md
-[watcher] https://www.youtube.com/@AlexHormozi: pulled → 2026-11-22 - AlexHormozi - It’s Unsexy, But Will Grow Your Business Dangerously FAST.md
-[watcher] https://www.youtube.com/@Healthpreneur: pulled → 2026-11-22 - Healthpreneur - Give Me 15 Minutes and I'll Show You Why You Need a YouTube.md
-[watcher] https://www.youtube.com/@Powerspod HLRqK-BGf0s: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=HLRqK-BGf0s&format=text&include_timestamp=true) — will retry next run
-[watcher] https://www.youtube.com/@ChrisWillx: pulled → 2026-11-22 - ChrisWillx - Does Studying Consciousness Make Atheism Hard To Defend - Al.md
-[watcher] done — pulled 4, skipped 13
+# last run 2026-11-22 23:37 UTC
+[watcher] https://www.youtube.com/@GrahamStephan iBMT-YckIEk: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=iBMT-YckIEk&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-22 - MeetKevin - The Start of Recession.md
+[watcher] https://www.youtube.com/@thekoerneroffice: pulled → 2026-11-22 - thekoerneroffice - I Let AI Start an Online Business for Me With Just $2.md
+[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-22 - THEREALBRADLEA - He Sold His First Company at 16 Then Retired for 2 Weeks.md
+[watcher] https://www.youtube.com/@ShawnRyanShow -IObATJE5ow: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=-IObATJE5ow&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 3, skipped 11
