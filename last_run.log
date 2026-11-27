@@ -1,7 +1,3 @@
-# last run 2026-11-27 04:15 UTC
-[watcher] https://www.youtube.com/@GeorgeGammon: pulled → 2026-11-27 - GeorgeGammon - What Just Happened Is Much Worse Than A Stock Market Crash.md
-[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-27 - MeetKevin - oh sht... i might be wrong.md
-[watcher] https://www.youtube.com/@thekoerneroffice: pulled → 2026-11-27 - thekoerneroffice - I Hate QuickBooks So Much I Built My Own (Week One Results).md
-[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-27 - THEREALBRADLEA - From $80K in Debt to $300K in 4 Months With One Letter.md
-[watcher] https://www.youtube.com/@THEREALBRADLEA y2Yb-yX9h_s: no captions — skipped (MediaScribe fallback)
-[watcher] done — pulled 4, skipped 11
+# last run 2026-11-27 13:53 UTC
+[watcher] https://www.youtube.com/@lewishowes 1KpX8C_kmoM: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=1KpX8C_kmoM&format=text&include_timestamp=true) — will retry next run
+[watcher] done — pulled 0, skipped 6
