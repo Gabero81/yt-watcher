@@ -1,3 +1,16 @@
-# last run 2026-11-27 13:53 UTC
-[watcher] https://www.youtube.com/@lewishowes 1KpX8C_kmoM: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=1KpX8C_kmoM&format=text&include_timestamp=true) — will retry next run
-[watcher] done — pulled 0, skipped 6
+# last run 2026-11-27 22:43 UTC
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-27 - MeetKevin - How to Survive the Coming Job Recession.md
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-27 - MeetKevin - WARNING The Next 10 Days.md
+[watcher] https://www.youtube.com/@MeetKevin: pulled → 2026-11-27 - MeetKevin - The Nvidia Arrests are Starting.md
+[watcher] https://www.youtube.com/@TobyMathis: pulled → 2026-11-27 - TobyMathis - You Have Enough To Retire Sooner Than You Think (Here's The.md
+[watcher] https://www.youtube.com/@TheChrisNaugle: pulled → 2026-11-27 - TheChrisNaugle - What to Do When You Are Making Good Money But It Still Feels.md
+[watcher] https://www.youtube.com/@PBDPodcast ghAlXAihwjw: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=ghAlXAihwjw&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@PBDPodcast CWpdqF3WTes: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=CWpdqF3WTes&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@VALUETAINMENT CWpdqF3WTes: transcript error (408 Client Error: Request Timeout for url: https://transcriptapi.com/api/v2/youtube/transcript?video_url=CWpdqF3WTes&format=text&include_timestamp=true) — will retry next run
+[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-27 - THEREALBRADLEA - Can Anyone Really Become a Millionaire in America Brad Lea.md
+[watcher] https://www.youtube.com/@THEREALBRADLEA: pulled → 2026-11-27 - THEREALBRADLEA - How a 24-Year-Old Raised $300K for a Brokerage Before Sellin.md
+[watcher] https://www.youtube.com/@TheDiaryOfACEOClips: pulled → 2026-11-27 - TheDiaryOfACEOClips - The #1 SIMPLE Way To STOP Heart Disease Before It Starts.md
+[watcher] https://www.youtube.com/@lewishowes evfKLqoutOg: no captions — skipped (MediaScribe fallback)
+[watcher] https://www.youtube.com/@ShawnRyanShow: pulled → 2026-11-27 - ShawnRyanShow - The Flight Medic Who Says He Met Jesus After a 140 MPH Bird.md
+[watcher] https://www.youtube.com/@ChrisWillx: pulled → 2026-11-27 - ChrisWillx - The Moral Double Standards Of GTA VI.md
+[watcher] done — pulled 10, skipped 20
